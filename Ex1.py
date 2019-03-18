@@ -4,26 +4,46 @@ unit_count = 0
 units = ['Algorithimns','File Streams','Encryption','Network Comm','Flask']
 days_of_week = ['Monday','Tuesday','Wednesday','Thursday','Friday']
 
+#Prompt user ton input value
+#age = input("Enter Your age")
+
+#Run only one block is condition is true
+print("Print only one if True")
+if (2>3):
+	print("True")
+else:
+	print("False")
+
 #Running Concurrent Decisoon
-if (days>3):
-	print("peter")
+print("Check All conditions at the same time")
+if (2>3):
+	print("peter is ")
 if(3>2):
 	print("Mike")
 if (2>1):
 	print("Joan")
 
 #Executing only one if condition is true. This means only one block under the elif is executed
+print("Print only one if True")
 if (days <7):
 	print("peter")
 elif(days == 5):
    	print("Mike")
 elif (days >4):
-	print("Joan")
+    print("Joan")
+else:
+    print("Out of Range")
 
 #Looping Through Values in a list
+print("Print Values From a list")
 for unit in units:
 	unit_count+=1
 	print "Unit Taught is: %s" % unit
+
+
+#Getting item at specif position on a lits
+
+
 	
 
     
