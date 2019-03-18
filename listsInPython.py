@@ -7,13 +7,12 @@ print("All List Items")
 print(numbers_list)
 
 #access list item at specific position by index
-value_at_pos3 = numbers_list[2];
+value_at_pos3 = numbers_list[2]
 print("\nList at Position 3 is : %d "%value_at_pos3)
 
 #access list elements in a given range and print
 print("\nList items in the range 4--8: ")
 print(numbers_list[4:8])
-
 
 #Looping through a list checking if cndition is true and adding items to a new list 
 for number in numbers_list:
@@ -26,7 +25,6 @@ print(even_numbers_list)
 print("\nmore than one element added to the list")
 even_numbers_list.extend([200,400,600,800,100])
 print(even_numbers_list)
-
 
 #Check if Item is in the list
 if 1000 in even_numbers_list:
