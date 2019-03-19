@@ -64,9 +64,24 @@ print("\nLength of list is %d"%len(even_numbers_list))
 #Count occurence of given value in the list
 print("4 has occurred %d times in the list"%even_numbers_list.count(4))
 
-#Sort list in ascending order
+#Sort list in ascending order using sorted() -"Returns the list"
 print("\nSorted List of even numbers in ascending order:")
-sorted_list =numbers_list.sort(reverse = True)
-print(sorted_list)
+print(sorted(even_numbers_list))
+
+#Sort list in descing order
+print("\nSorted List of even numbers in descending order:")
+print(sorted(even_numbers_list,reverse = True))
+
+#Sort list using sort()
+print("\nSorted List using the sort() in Ascending order:")
+even_numbers_list.sort()
+print(even_numbers_list)
+
+#Sort list using sort()
+print("\nSorted List using the sort(): in descending Order")
+even_numbers_list.sort(reverse = True)
+print(even_numbers_list)
+
+
 
 
