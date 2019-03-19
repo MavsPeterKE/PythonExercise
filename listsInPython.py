@@ -33,5 +33,40 @@ else:
 	print("\nNo One Thousand is not in the list")
 
 
+#Delete one item from the list
+print("\nOne Item deleted from the list")
+del even_numbers_list[2]
+print(even_numbers_list)
+
+#Delete Multiple Items
+print("\n Delete multiple items")
+del even_numbers_list[4:6]
+print(even_numbers_list)
+
+#To delete item of a known value from the list use rremove
+print("\nRemove Item of a known value")
+even_numbers_list.remove(800)
+print(even_numbers_list)
+
+#Pop Element
+print("\n Pop element at given position")
+even_numbers_list.pop(1)
+#print(even_numbers_list)
+
+#Insert item at specified index
+print("\nInsert Item at list Pos")
+even_numbers_list.insert(2,4)
+print(even_numbers_list)
+
+#Print length of list
+print("\nLength of list is %d"%len(even_numbers_list))
+
+#Count occurence of given value in the list
+print("4 has occurred %d times in the list"%even_numbers_list.count(4))
+
+#Sort list in ascending order
+print("\nSorted List of even numbers in ascending order:")
+sorted_list =numbers_list.sort(reverse = True)
+print(sorted_list)
 
 
