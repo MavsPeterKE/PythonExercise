@@ -1,3 +1,4 @@
+#List is a collection which is ordered and Changeable and written with [] brackets
 #A list of Random numbers
 numbers_list = [2,5,7,3,4,5,89,0,50,4,67,4,63,62,84]
 even_numbers_list = []
@@ -55,7 +56,7 @@ even_numbers_list.pop(1)
 
 #Insert item at specified index
 print("\nInsert Item at list Pos")
-even_numbers_list.insert(2,4)
+even_numbers_list.insert(2,400)
 print(even_numbers_list)
 
 #Print length of list
@@ -78,7 +79,7 @@ even_numbers_list.sort()
 print(even_numbers_list)
 
 #Sort list using sort()
-print("\nSorted List using the sort(): in descending Order")
+print("\nSorted List using the sort(): in descending Order<")
 even_numbers_list.sort(reverse = True)
 print(even_numbers_list)
 
