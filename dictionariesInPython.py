@@ -1,4 +1,4 @@
-#Dictonary is a collection which is unordered, changeable and indexed. No duplicates
+#Dictonary is a collection which is unordered, Mutable and indexed. No duplicates
 
 #Creating a Dictionary 
 citizen_dictionary = {"name":"Peter","age":1, "phone":"+254"}
