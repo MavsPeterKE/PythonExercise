@@ -70,4 +70,3 @@ service_areas = {"Kinoo","Kikuyu","Lutwami,"}
 agents.update(service_areas)
 print(agents)
 
-
