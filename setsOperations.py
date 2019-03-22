@@ -64,9 +64,41 @@ if "Tatu" in depot_locations:
 else:
 	print("\nTatu is not in the Depots")
 
-#Add two tuples into a set
+print("\nAdd Tuple to a set")
 agents={"Maina","OLiech","John"}
 service_areas = {"Kinoo","Kikuyu","Lutwami,"}
 agents.update(service_areas)
 print(agents)
+
+#Set Union operation
+print("\n Union Operation in sets :")
+
+#Create two list
+regions = set(["Namib","Tala","Bent","Naiga","Rwanda","Kitale"])
+regions_sumplement = set(["Namib","Eldoret","Gerntry","Juja","Tala","Kitale","Rwanda","Naiga"])
+
+#Union (|)of the two sets (include items from both sets)
+print("\nUnion of set Regions and Region Supplement is : Shows Items in both sets")
+print(regions.union(regions_sumplement))
+print(regions|regions_sumplement) #- Can also be written this ways
+
+#Intersection of the two sets (show only item that appears in both sets)
+print("\nIntersection of set Regions and Region Supplement is : Only shows items on both sets")
+print(regions.intersection(regions_sumplement))
+print(regions&regions_sumplement) #- can also be written this way
+
+#Difference compares items in one set to the other and list the ones not appearing on the set
+print("\nDifference of set Regions and Region Supplement is : shows items that appear on Regions and Not on Regions Supplement Set")
+print(regions.difference(regions_sumplement))
+print(regions-regions_sumplement) #Can also be written this way
+print("\nDifference between sets Region Supplement Set and Regions Set: shows items that appear on Regions Supplement and Not on Regions Set")
+print(regions_sumplement-regions)
+
+#Symetric Difference compares items in one set to the other and list the ones not appearing on the set
+print("\nThe Symmetric Difference between Regions Supplement and Regions: Shows Items that appear on both sets disctinctively")
+print(regions_sumplement.symmetric_difference(regions))
+print(regions^regions_sumplement) #Can also be written this way
+
+#
+
 

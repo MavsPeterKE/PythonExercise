@@ -49,7 +49,7 @@ citizen_dictionary["crime_record"] = "None"
 print("Dictionary After Adding new Key")
 print(citizen_dictionary)
 
-#Remove Item from the dictionary using pop("key")
+#Remove Item from the dictionary using pop("key") || del["key"]
 print("\nRemove Crime Record from the dictionary")
 citizen_dictionary.pop("crime_record")
 print(citizen_dictionary)

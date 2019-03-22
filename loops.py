@@ -48,6 +48,4 @@ for i,name in enumerate(name_list):
 	print("List Item Position: %d"%i+" value: %s"%name)
 
 
-
-
     	
