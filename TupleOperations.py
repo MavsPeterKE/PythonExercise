@@ -49,7 +49,6 @@ print(counts[1:6:2])
 #Operations on a tuple
 #Combining / Adding multiple tuples
 combined_tuple = referees+counts
-combined_tuple.update("")
 print(combined_tuple)
 
 #Check if a given value is on the tuple
