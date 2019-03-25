@@ -34,6 +34,7 @@ for i in range(1,100):
        continue
 print(i)
 
+
 #Using While loop to print List Items
 print("\nUsing While Loop to Print List Items")
 i=0
@@ -47,5 +48,8 @@ print("\nUsing enumerate in For loop and Getting both the list item and the inde
 for i,name in enumerate(name_list):
 	print("List Item Position: %d"%i+" value: %s"%name)
 
+
+for charecter in "petrr":
+    print(charecter)
 
     	
