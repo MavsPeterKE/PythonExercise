@@ -1,4 +1,4 @@
-#List is a collection which is ordered and Changeable and written with [] brackets
+#List is a collection which is ordered and mutable and written with [] brackets
 #A list of Random numbers
 numbers_list = [2,5,7,3,4,5,89,0,50,4,67,4,63,62,84]
 even_numbers_list = []

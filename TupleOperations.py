@@ -1,4 +1,4 @@
-#Tuple is a collection which is ordered and unchangeble and written with () brackets
+#Tuple is a collection which is ordered and immutable and written with () brackets
 #Tuple is basically a read only List(immutable)
 referees = ('Owen','JohmSnow','Michael Trio')
 counts = (2,3,4,5,6,7,8,9,10,11,15)
@@ -46,7 +46,7 @@ print("Slicing Tuple in Reverse")
 print(counts[::-1])
 
 
-#Advanced slicing - Slice only even numbers in give range
+#Advanced slicing - Specify number of items to be skipped
 print("\nSlicing by specifying how the tuple index should increment")
 print("\nOriginal List")
 print(counts)

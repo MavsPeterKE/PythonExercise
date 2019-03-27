@@ -4,11 +4,6 @@ unit_count = 0
 units = ['Algorithimns','File Streams','Encryption','Network Comm','Flask']
 days_of_week = ['Monday','Tuesday','Wednesday','Thursday','Friday']
 
-
-#Prompt user ton input value
-#age = input("Enter Your age")
-
-
 #Run only one block is condition is true
 print("Print only one if True")
 if (2>3):
@@ -37,14 +32,6 @@ elif (days >4):
     print("Joan")
 else:
     print("Out of Range")
-
-
-#Looping Through Values in a list
-print("Print Values From a list")
-for unit in units:
-	unit_count+=1
-	print "Unit Taught is: %s" % unit
-
 
 
 	
