@@ -8,7 +8,7 @@ vehicles.extend(["KBJ","KCH","KBY"])
 
 
 #Add Item to the set
-print("Adding Items to the sret using add(): ")
+print("Adding Items to the set using add(): ")
 depot_locations.add("Tatu")
 depot_locations.add("Thika")
 depot_locations.add("Naivasha")
@@ -77,10 +77,6 @@ agents={"Maina","OLiech","John"}
 service_areas = {"Kinoo","Kikuyu","Lutwami,"}
 agents.update(service_areas)
 print(agents)
-
-
-#Set Union operation
-print("\n Union Operation in sets :")
 
 
 #Create two list
